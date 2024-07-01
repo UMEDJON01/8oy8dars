@@ -51,7 +51,7 @@ function Singup() {
           <FcGoogle className="h-5 w-5 mr-2" /> Sign up with Google
         </button>
         <p className="mt-4 text-center">
-          Already registered?{" "}
+          Already registered?
           <Link to="/login" className="link link-primary font-extrabold">
             Login
           </Link>

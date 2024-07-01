@@ -47,8 +47,8 @@ function Login() {
           <FcGoogle className="h-5 w-5 mr-2" /> Login with Google
         </button>
         <p className="mt-4 text-center">
-          Do not have an account yet?{" "}
-          <Link to="/signup" className="link link-primary font-extrabold">
+          Do not have an account yet?
+          <Link to="/singup" className="link link-primary font-extrabold">
             Sign Up
           </Link>
         </p>
