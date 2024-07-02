@@ -12,13 +12,11 @@ import Mainlayout from "./layouts/Mainlayout";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 
 import Home from "./pages/Home";
-
 import About from "./pages/About";
-
 import Contact from "./pages/Contact";
-
 import Login from "./pages/Login";
 import Singup from "./pages/Singup";
+import ProductsList from "./pages/ProductList";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase/firebaseConfin";
 
@@ -52,6 +50,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact />,
+        },
+        {
+          path: "/products", // Add the new route
+          element: <ProductsList />,
         },
       ],
     },
