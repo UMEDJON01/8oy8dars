@@ -76,9 +76,7 @@ function Navbar1() {
             my website
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <NavLinks />
-        </div>
+        <div className="navbar-center hidden lg:flex"></div>
         <div className="navbar-end flex items-center">
           <label className="swap swap-rotate mr-9">
             <input type="checkbox" checked={isDarkMode} onChange={handleMode} />
